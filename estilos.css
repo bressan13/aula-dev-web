@@ -3,32 +3,54 @@
 
 header {
     background-color: rgb(1, 59, 1);
-    padding: 2%;
     display: flow-root;
 }
 
-#caixaLogo, #caixaNavegacao {
+
+#caixaLogo {
+    background-image: url("file:///C:/Users/victo/AppData/Local/Microsoft/Windows/INetCache/IE/SORNMJ4W/IMG_2189[1].PNG");
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    width: 300px; /* Largura da caixa (ajuste conforme necessário) */
+    height: 200px; /* Altura da caixa (ajuste conforme necessário) */
+    float: left;
+    padding-left: 1%; 
+    padding: 1%;
+}
+
+#caixaNavegacao {
     background-color: black;
     height: 70px;
     width: 30%;
     color: white;
-}
-
-#caixaLogo {
-    float: left;
-}
-
-#caixaNavegacao {
     float: right;
 }
 
 #conteudoPrincipal {
     background-color: black;
-    padding: 1%;
+    
 }
 
 #apresentacao {
     background-color: rgb(1, 59, 1);
     height: 500px;
     width: 100%;
+}
+
+#subtitulo {
+    font-size: 26px;
+    padding-left: 20%;
+    
+}
+
+.tituloSubtitulo {
+    font-family: 'League Spartan', sans-serif; /* Aplica a fonte League Spartan */
+    font-size: 36px; /* Ajusta o tamanho da fonte */
+    font-weight: 700; /* Define o peso da fonte (opcional) */
+    color: rgb(0, 0, 0); /* Cor do texto */
+    float: left; /* Centraliza o texto */
+    margin-top: 5px; /* Espaçamento superior */
+    padding-left: 7%;
+    padding-right: 90%;
 }
