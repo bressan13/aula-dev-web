@@ -2,38 +2,47 @@
 
 
 header {
-    background-color: rgb(1, 59, 1);
+    
     display: flow-root;
 }
 
 
 #caixaLogo {
-    background-image: url("file:///C:/Users/victo/AppData/Local/Microsoft/Windows/INetCache/IE/SORNMJ4W/IMG_2189[1].PNG");
+    background-image: url("images/IMG_2189.PNG");
     background-size: contain; /* Ajusta o tamanho da imagem */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center; /* Centraliza a imagem */
-    width: 300px; /* Largura da caixa (ajuste conforme necessário) */
-    height: 200px; /* Altura da caixa (ajuste conforme necessário) */
+    width: 400px; /* Largura da caixa (ajuste conforme necessário) */
+    height: 150px; /* Altura da caixa (ajuste conforme necessário) */
     float: left;
     padding-left: 1%; 
     padding: 1%;
 }
 
 #caixaNavegacao {
-    background-color: black;
-    height: 70px;
-    width: 30%;
-    color: white;
+    background-image: url("images/IMG_2197.PNG");
+    background-size: contain; /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    width: 200px; /* Largura da caixa (ajuste conforme necessário) */
+    height: 100px; /* Altura da caixa (ajuste conforme necessário) */
     float: right;
+    padding-right: 1%; 
+    padding: 1%;
 }
 
 #conteudoPrincipal {
-    background-color: black;
+    background-image: url("images/Design sem nome (5).png");
+ /* Ajusta o tamanho da imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    background-position: center; /* Centraliza a imagem */
+    width: 100%;
+    height: 150%;
     
 }
 
 #apresentacao {
-    background-color: rgb(1, 59, 1);
+    
     height: 500px;
     width: 100%;
 }
@@ -54,3 +63,20 @@ header {
     padding-left: 7%;
     padding-right: 90%;
 }
+
+#fotoSelfie {
+    background-image: url("images/IMG_2199.PNG");
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: contain; /* Ajusta o tamanho da imagem para caber no contêiner */
+    background-position: center right; /* Centraliza verticalmente e posiciona à direita */
+    width: 400px; /* Ajuste conforme o tamanho desejado */
+    height: 400px; /* Ajuste conforme o tamanho desejado */
+    position: relative; /* Permite controle de posicionamento */
+    margin-right: 60%;
+    margin-left: 50%; /* Move um pouco para a direita */
+    
+}
+
+
+
+
