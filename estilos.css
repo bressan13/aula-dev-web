@@ -1,19 +1,23 @@
-
-
+body {
+    margin: 0px;
+}
 
 header {
-    
+
+    margin: 0px; 
     display: flow-root;
+    z-index: 2;
+    position: relative;
 }
 
 
 #caixaLogo {
     background-image: url("images/IMG_2189.PNG");
-    background-size: contain; /* Ajusta o tamanho da imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
-    width: 400px; /* Largura da caixa (ajuste conforme necessário) */
-    height: 150px; /* Altura da caixa (ajuste conforme necessário) */
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 400px;
+    height: 150px; 
     float: left;
     padding-left: 1%; 
     padding: 1%;
@@ -21,61 +25,130 @@ header {
 
 #caixaNavegacao {
     background-image: url("images/IMG_2197.PNG");
-    background-size: contain; /* Ajusta o tamanho da imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
-    width: 200px; /* Largura da caixa (ajuste conforme necessário) */
-    height: 100px; /* Altura da caixa (ajuste conforme necessário) */
-    float: right;
-    padding-right: 1%; 
-    padding: 1%;
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    width: 200px; 
+    height: 100px; 
+    float: right; 
+    padding: 3%;
+    padding-right: 5%;
+    
 }
 
 #conteudoPrincipal {
-    background-image: url("images/Design sem nome (5).png");
- /* Ajusta o tamanho da imagem */
-    background-repeat: no-repeat; /* Impede que a imagem se repita */
-    background-position: center; /* Centraliza a imagem */
+    
+    background-position: center; 
     width: 100%;
     height: 150%;
+    margin: 0px;
     
 }
 
 #apresentacao {
-    
-    height: 500px;
+    background-image: url("images/Design sem nome (5).png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    top: 5%;
+    left: 0%;
+    right: 0%;
+    position: absolute;
+    height: 600px;
     width: 100%;
+    z-index: 1;
+    padding-top: 150px;
+    margin: 0px;
 }
 
 #subtitulo {
     font-size: 26px;
-    padding-left: 20%;
+    padding-left: 40%;
+    margin-top: -20%;
+    width: 90%;
+
     
 }
 
 .tituloSubtitulo {
-    font-family: 'League Spartan', sans-serif; /* Aplica a fonte League Spartan */
-    font-size: 36px; /* Ajusta o tamanho da fonte */
-    font-weight: 700; /* Define o peso da fonte (opcional) */
-    color: rgb(0, 0, 0); /* Cor do texto */
-    float: left; /* Centraliza o texto */
-    margin-top: 5px; /* Espaçamento superior */
-    padding-left: 7%;
-    padding-right: 90%;
+    font-family: 'League Spartan', sans-serif; 
+    font-size: 46px; 
+    color: rgb(0, 0, 0); 
+    margin-top: 0px; 
+    padding-left: 35%;
+    width: 40%;
+    height: 60%;
 }
 
 #fotoSelfie {
     background-image: url("images/IMG_2199.PNG");
-    background-repeat: no-repeat; /* Não repete a imagem */
-    background-size: contain; /* Ajusta o tamanho da imagem para caber no contêiner */
-    background-position: center right; /* Centraliza verticalmente e posiciona à direita */
-    width: 400px; /* Ajuste conforme o tamanho desejado */
-    height: 400px; /* Ajuste conforme o tamanho desejado */
-    position: relative; /* Permite controle de posicionamento */
-    margin-right: 60%;
-    margin-left: 50%; /* Move um pouco para a direita */
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    width: 60%; 
+    height: 60%; 
+    float: right;
+    padding: 2%;
+    margin: 35%;
+    margin-top: 0%;
+   
     
 }
+
+.metadeEsquerda {
+
+    
+    width: 45%;
+    height: 100%;
+    float: left;
+}
+
+.metadeDireita {
+
+    width: 45%;
+    height: 100%;
+    float: right;
+}
+
+.artigos {
+    
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255); 
+    line-height: 1;
+    text-align: left; 
+    width: 100%;
+    height: 50%;
+    margin: 10%;
+    padding: 10%;
+    margin-top: 20%;
+
+}
+
+.faixa {
+    background-color: black;
+    
+    width: 100%;
+    height: 30%;
+    margin-top: 20%;
+}
+
+.faixa h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(255, 255, 255); 
+    line-height: 1;
+    text-align: left;
+    width: 100%;
+    height: 10%;
+    
+}
+
+
+
+
+
 
 
 
